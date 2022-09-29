@@ -65,6 +65,9 @@ class MyFooter extends HTMLElement {
                             <div class="f-label"><p>Račun:</p></div>
                             <div class="f-label1"><p>567 - 463270000 - 7168</p>
                             <p class="banka">(SBERBANK AD Prnjavor)</p></div>
+
+                            <div class="f-label"><p>JIB:</p></div>
+                            <div class="f-label1"><p>496 005 432 0009</p></div>
                         </div>
 
                     </div>
@@ -76,7 +79,7 @@ class MyFooter extends HTMLElement {
                 </div>
 
                 <div class="f2">
-                    <p>&copy ByMe</p>
+                    <p>&copy ZEV V. NJ. 2022 ByMe</p>
                 </div>
             </footer>
         `
@@ -89,7 +92,7 @@ customElements.define('my-footer', MyFooter);
 class MyDoks extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            
+
                 <div class="dokumenti">
                     <h4>Dokumenti</h4>
                     <ul>
@@ -105,35 +108,9 @@ class MyDoks extends HTMLElement {
                         <li data-category="zapisnik"><a href="../zapisnici/zapisnici.html">Zapisnik (<span class="kat-br zapisnik"> 0 </span>)</a></li>
                     </ul>
                 </div>
-                
-            
+
+
         `
     }
 }
 customElements.define('my-doks', MyDoks);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
