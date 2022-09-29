@@ -18,7 +18,8 @@ font-family: 'Source Sans Pro', sans-serif;
     --boja3: #767676;
     --boja4: #f3f3f3;
 
-    --elColor1: #006a6a;
+    /* --elColor1: #006a6a; */
+    --elColor1: #0693e3;
     --elColor2: #fffcf6;
     --elColor3: #338988;
 
@@ -39,7 +40,7 @@ font-family: 'Source Sans Pro', sans-serif;
 .naslovni-tekst {
     padding: 8vh 0;
     text-align: left;
-    
+
 }
 
 .naslov {
@@ -129,7 +130,7 @@ ol {
 .dok-lista button a {
     text-decoration: none;
     color: var(--elColor1);
-    
+
 }
 
 
@@ -174,24 +175,3 @@ ol {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
