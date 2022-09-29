@@ -21,7 +21,8 @@ font-family: 'Source Sans Pro', sans-serif;
     /* --elColor1: #006a6a; */
     --elColor1: #0693e3;
     --elColor2: #fffcf6;
-    --elColor3: #338988;
+    /* --elColor3: #338988; */
+    --elColor3: #00B3EC;
 
 }
 
@@ -100,7 +101,8 @@ ol {
     padding-bottom: 30px;
 }
 .preuzmi2 a {
-    color: #ff3a18;
+    /* color: #ff3a18; */
+    color: #cf2e2e;
 }
 .preuzmi1 {
     padding: 10px 0;
